@@ -273,15 +273,18 @@ namespace Lab3 {
 
 	}
 	private: System::Void btnstart_Click(System::Object^ sender, System::EventArgs^ e) {
-		*dirLiebre = 0; 
+		*dirLiebre = 0;
 		*dirTortuga = 0;
 		richTextBoxPista->Text = "";
-		richTextBoxPista->Text="¡BANG!"+" \n"+ "¡Y ARRANCAN!"+"\n"; 
+		richTextBoxPista->Text = "¡BANG!" + " \n" + "¡Y ARRANCAN!" + "\n";
 		lblstatus->Text = "Resultados...";
 		lblpremio->Text = "";
-		
+
+
 
 		timer1->Enabled = true;
+		// final 
+
 
 	}
 };
