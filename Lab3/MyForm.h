@@ -283,7 +283,7 @@ namespace Lab3 {
 
 
 		timer1->Enabled = true;
-		// final 
+		// Fin
 
 
 	}
